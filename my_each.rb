@@ -1,5 +1,8 @@
 def my_each(array)
-  while array == 1
+  i = array.size
+  counter = 0
+  while counter < i
     puts x
+    counter += 1
   end
 end
