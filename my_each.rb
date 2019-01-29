@@ -1,6 +1,6 @@
-def my_each(array)
+def my_each(array) do |x|
   while array == 1
-    x + 1
+    puts x
   end
   puts array
 end
